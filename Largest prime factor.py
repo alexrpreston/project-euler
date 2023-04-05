@@ -11,7 +11,7 @@ j = 2
 results = []
 
 while True:
-    if j == currNum:
+    if j == currNum: 
         results.append(j)
         break
     if currNum%j == 0 and isPrime(j):
